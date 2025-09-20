@@ -4,8 +4,8 @@
 
 ### 1. Calculadora de Factorial: Crea una función que reciba un número entero y devuelva su factorial.
 
-# Pedir número al usuario
-numero = int(input("Ingresa un número entero: "))
+# Pedir un número al usuario
+numero = int(input("Ingresa un número: "))
 
 # Inicializar factorial en 1
 factorial = 1
