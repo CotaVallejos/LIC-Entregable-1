@@ -7,19 +7,19 @@
 import random
 
 # Generar un número aleatorio entre 1 y 100
-numeroSecreto = random.randint(1, 100)
+numero_secreto = random.randint(1, 100)
 
 # Inicializar la variable del usuario
-numeroUsuario = -1
+numero_usuario = -1
 
 # Mientras el usuario no adivine
-while numeroUsuario != numeroSecreto:
+while numero_usuario != numero_secreto:
 # Pedir al usuario que adivine el número
-    numeroUsuario = int(input("¡Adivina el número! Ingresa un número entre 1 y 100:"))
+    numero_usuario = int(input("¡Adivina el número! Ingresa un número entre 1 y 100:"))
 
-    if numeroUsuario == numeroSecreto:
-        print(f"¡Felicitaciones, adivinaste! El número es {numeroSecreto}.")
-    elif numeroUsuario > numeroSecreto:
+    if numero_usuario == numero_secreto:
+        print(f"¡Felicitaciones, adivinaste! El número es {numero_secreto}.")
+    elif numero_usuario > numero_secreto:
         print("Más bajo")
     else:
         print("Más alto")
