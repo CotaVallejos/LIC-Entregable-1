@@ -17,6 +17,7 @@ for elemento in lista_1:
         if elemento not in lista_unica: # Evitar duplicados
             lista_unica.append(elemento)
 
+# Mostrar elementos que ambas listas tienen en común
 print(lista_unica)
 
 
